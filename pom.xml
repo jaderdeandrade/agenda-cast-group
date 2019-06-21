@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jda</groupId>
-	<artifactId>agenda-cast-group</artifactId>
+	<artifactId>agenda</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>agenda-cast-group</name>
+	<name>agenda</name>
 	<description>Agenda Cast Group - Spring Boot</description>
 
 	<properties>

@@ -2,17 +2,23 @@ package com.jda.agenda.domain;
 
 import java.io.Serializable;
 
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection = "user")
 public class User implements Serializable {
 
 	/**
 	 * 
-	 * Application entry point.
+	 * 
 	 *
 	 * @author <a href="mailto:jaderdeandrade@gmail.com">Jader T. Andrade</a>.
 	 * @param args array passed to this method 
 	 * void
 	 */
 	private static final long serialVersionUID = 1L;
+	
+	@Id
 	private String id;
 	private String name;
 	private String number;
